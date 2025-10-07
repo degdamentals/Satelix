@@ -1,0 +1,299 @@
+2025-09-18 07:43:31,467 - INFO - Initialisation terminée - Date cible: 18/09/2025
+2025-09-18 07:43:31,468 - INFO - === DÉBUT DE LA MISE À JOUR DES DATES D'INVENTAIRES ===
+2025-09-18 07:43:31,468 - INFO - Toutes les variables d'environnement obligatoires sont présentes
+2025-09-18 07:43:31,468 - INFO - Mode headless activé
+2025-09-18 07:43:34,959 - INFO - Driver Chrome initialisé avec succès
+2025-09-18 07:43:34,959 - INFO - Étape: Connexion
+2025-09-18 07:43:34,959 - INFO - Début de la connexion à Satelix
+2025-09-18 07:43:35,479 - INFO - Bouton de connexion trouvé avec: css selector = input[type='submit']
+2025-09-18 07:43:35,735 - INFO - Capture d'écran sauvegardée: logs\before_login_20250918_074335.png
+2025-09-18 07:43:36,856 - INFO - Capture d'écran sauvegardée: logs\after_login_20250918_074336.png
+2025-09-18 07:43:36,856 - INFO - Connexion réussie
+2025-09-18 07:43:36,856 - INFO - Étape: Navigation vers Inventaires
+2025-09-18 07:43:36,857 - INFO - Navigation vers la page Inventaires
+2025-09-18 07:43:37,321 - INFO - Capture d'écran sauvegardée: logs\inventaires_page_20250918_074337.png
+2025-09-18 07:43:37,321 - INFO - Page Inventaires chargée avec succès
+2025-09-18 07:43:37,322 - INFO - Recherche des inventaires existants
+2025-09-18 07:43:37,367 - INFO - Inventaire trouvé: 16/09/2025
+2025-09-18 07:43:37,394 - INFO - Inventaire trouvé: 16/09/2025
+2025-09-18 07:43:37,595 - INFO - Total inventaires trouvés: 2
+2025-09-18 07:43:37,595 - INFO - Utilisation de l'inventaire '16/09/2025' comme template
+2025-09-18 07:43:37,595 - INFO - Création d'un nouvel inventaire avec la date 18/09/2025
+2025-09-18 07:43:37,595 - INFO - Création d'un nouvel inventaire avec la date 18/09/2025
+2025-09-18 07:43:37,690 - INFO - Bouton de création trouvé: button[title*='Nouvel']
+2025-09-18 07:43:38,739 - INFO - Bouton de création cliqué
+2025-09-18 07:43:38,748 - INFO - Formulaire de création ouvert
+2025-09-18 07:43:41,858 - INFO - Capture d'écran sauvegardée: logs\top_of_form_20250918_074341.png
+2025-09-18 07:43:41,859 - INFO - Copie des paramètres depuis l'inventaire template
+2025-09-18 07:43:41,859 - INFO - 📝 Définition de l'intitulé: Inventaire filtres
+2025-09-18 07:43:41,859 - INFO - Recherche du champ intitule...
+2025-09-18 07:43:41,968 - INFO - Capture d'écran sauvegardée: logs\searching_intitule_20250918_074341.png
+2025-09-18 07:43:42,005 - INFO - Champ trouvé: name='intitule', id='', placeholder=''
+2025-09-18 07:43:43,065 - INFO - SUCCÈS! Champ intitule rempli avec: 'Inventaire filtres'
+2025-09-18 07:43:44,066 - INFO - 🏢 Sélection du dépôt: DEPOT
+2025-09-18 07:43:44,122 - WARNING - ❌ Dropdown depot ou option DEPOT non trouvé(e)
+2025-09-18 07:43:45,122 - INFO - 💰 Sélection du type de valorisation: CMUP
+2025-09-18 07:43:45,206 - WARNING - ❌ Dropdown valorisation ou option CMUP non trouvé(e)
+2025-09-18 07:43:46,207 - INFO - 🔢 Cochage de 'prix lot/série'
+2025-09-18 07:43:46,207 - INFO - 🔍 Recherche de la checkbox: prix lot/série
+2025-09-18 07:43:47,460 - WARNING - ❌ Checkbox 'prix lot/série' non trouvée
+2025-09-18 07:43:48,460 - INFO - 📦 Cochage de 'capture des stocks'
+2025-09-18 07:43:48,461 - INFO - 🔍 Recherche de la checkbox: capture des stocks
+2025-09-18 07:43:48,515 - INFO - ✅ Checkbox 'capture des stocks' cochée via clic sur label
+2025-09-18 07:43:49,552 - INFO - Champ de date trouvé: input[name*='date']
+2025-09-18 07:43:50,135 - INFO - Date définie (FR): 18/09/2025
+2025-09-18 07:43:51,238 - INFO - Capture d'écran sauvegardée: logs\before_save_button_search_20250918_074351.png
+2025-09-18 07:43:51,238 - INFO - Recherche du bouton 'Ajouter' vert...
+2025-09-18 07:43:51,249 - INFO - Sélecteur 1: //button[contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), 'ajouter')] - 4 bouton(s) trouvé(s)
+2025-09-18 07:43:51,274 - INFO -   Bouton 1: 'Ajouter' - class='btn btn-success btn-user' - type='submit'
+2025-09-18 07:43:51,274 - INFO - ✅ Bouton 'Ajouter' sélectionné: 'Ajouter'
+2025-09-18 07:43:52,291 - INFO - 🖱️ Clic sur le bouton: 'Ajouter'
+2025-09-18 07:43:52,373 - INFO - ✅ Sauvegarde confirmée
+2025-09-18 07:43:52,373 - INFO - Nouvel inventaire créé avec succès
+2025-09-18 07:43:52,373 - INFO - Nouvel inventaire créé avec succès
+2025-09-18 07:43:57,374 - INFO - Actualisation de la page des inventaires
+2025-09-18 07:43:57,841 - INFO - Capture d'écran sauvegardée: logs\page_refreshed_20250918_074357.png
+2025-09-18 07:43:57,841 - INFO - Page actualisée avec succès
+2025-09-18 07:44:00,841 - INFO - Recherche des inventaires existants
+2025-09-18 07:44:00,877 - INFO - Inventaire trouvé: 16/09/2025
+2025-09-18 07:44:00,904 - INFO - Inventaire trouvé: 16/09/2025
+2025-09-18 07:44:00,930 - INFO - Inventaire trouvé: 18/09/2025
+2025-09-18 07:44:01,119 - INFO - Total inventaires trouvés: 3
+2025-09-18 07:44:01,120 - INFO - Inventaire trouvé après actualisation 1
+2025-09-18 07:44:01,120 - INFO - Inventaire créé avec succès
+2025-09-18 07:44:01,120 - INFO - Navigation vers la page Inventaires
+2025-09-18 07:44:01,540 - INFO - Capture d'écran sauvegardée: logs\inventaires_page_20250918_074401.png
+2025-09-18 07:44:01,541 - INFO - Page Inventaires chargée avec succès
+2025-09-18 07:44:03,542 - INFO - Recherche des inventaires existants
+2025-09-18 07:44:03,576 - INFO - Inventaire trouvé: 16/09/2025
+2025-09-18 07:44:03,604 - INFO - Inventaire trouvé: 16/09/2025
+2025-09-18 07:44:03,631 - INFO - Inventaire trouvé: 18/09/2025
+2025-09-18 07:44:03,844 - INFO - Total inventaires trouvés: 3
+2025-09-18 07:44:03,844 - INFO - ✅ Inventaire confirmé visible dans la liste: 18/09/2025
+2025-09-18 07:44:03,844 - INFO - Actualisation de la page des inventaires
+2025-09-18 07:44:04,221 - INFO - Capture d'écran sauvegardée: logs\page_refreshed_20250918_074404.png
+2025-09-18 07:44:04,222 - INFO - Page actualisée avec succès
+2025-09-18 07:44:04,222 - INFO - === SUCCÈS: 1 inventaire créé avec la date 18/09/2025 ===
+2025-09-18 07:44:06,353 - INFO - Driver fermé proprement
+2025-09-19 07:52:35,251 - INFO - Initialisation terminée - Date cible: 19/09/2025
+2025-09-19 07:52:35,252 - INFO - === DÉBUT DE LA MISE À JOUR DES DATES D'INVENTAIRES ===
+2025-09-19 07:52:35,252 - INFO - Toutes les variables d'environnement obligatoires sont présentes
+2025-09-19 07:52:35,252 - INFO - Mode headless activé
+2025-09-19 07:52:37,498 - INFO - Driver Chrome initialisé avec succès
+2025-09-19 07:52:37,498 - INFO - Étape: Connexion
+2025-09-19 07:52:37,498 - INFO - Début de la connexion à Satelix
+2025-09-19 07:52:39,186 - INFO - Bouton de connexion trouvé avec: css selector = input[type='submit']
+2025-09-19 07:52:39,429 - INFO - Capture d'écran sauvegardée: logs\before_login_20250919_075239.png
+2025-09-19 07:52:42,855 - INFO - Capture d'écran sauvegardée: logs\after_login_20250919_075242.png
+2025-09-19 07:52:42,855 - INFO - Connexion réussie
+2025-09-19 07:52:42,856 - INFO - Étape: Navigation vers Inventaires
+2025-09-19 07:52:42,856 - INFO - Navigation vers la page Inventaires
+2025-09-19 07:52:43,462 - INFO - Capture d'écran sauvegardée: logs\inventaires_page_20250919_075243.png
+2025-09-19 07:52:43,462 - INFO - Page Inventaires chargée avec succès
+2025-09-19 07:52:43,462 - INFO - Recherche des inventaires existants
+2025-09-19 07:52:43,504 - INFO - Inventaire trouvé: 16/09/2025
+2025-09-19 07:52:43,658 - INFO - Total inventaires trouvés: 1
+2025-09-19 07:52:43,658 - INFO - Utilisation de l'inventaire '16/09/2025' comme template
+2025-09-19 07:52:43,658 - INFO - Création d'un nouvel inventaire avec la date 19/09/2025
+2025-09-19 07:52:43,658 - INFO - Création d'un nouvel inventaire avec la date 19/09/2025
+2025-09-19 07:52:43,741 - INFO - Bouton de création trouvé: button[title*='Nouvel']
+2025-09-19 07:52:44,786 - INFO - Bouton de création cliqué
+2025-09-19 07:52:44,795 - INFO - Formulaire de création ouvert
+2025-09-19 07:52:47,886 - INFO - Capture d'écran sauvegardée: logs\top_of_form_20250919_075247.png
+2025-09-19 07:52:47,887 - INFO - Copie des paramètres depuis l'inventaire template
+2025-09-19 07:52:47,887 - INFO - 📝 Définition de l'intitulé: Inventaire filtres
+2025-09-19 07:52:47,887 - INFO - Recherche du champ intitule...
+2025-09-19 07:52:47,978 - INFO - Capture d'écran sauvegardée: logs\searching_intitule_20250919_075247.png
+2025-09-19 07:52:48,012 - INFO - Champ trouvé: name='intitule', id='', placeholder=''
+2025-09-19 07:52:49,074 - INFO - SUCCÈS! Champ intitule rempli avec: 'Inventaire filtres'
+2025-09-19 07:52:50,075 - INFO - 🏢 Sélection du dépôt: DEPOT
+2025-09-19 07:52:50,129 - WARNING - ❌ Dropdown depot ou option DEPOT non trouvé(e)
+2025-09-19 07:52:51,130 - INFO - 💰 Sélection du type de valorisation: CMUP
+2025-09-19 07:52:51,197 - WARNING - ❌ Dropdown valorisation ou option CMUP non trouvé(e)
+2025-09-19 07:52:52,198 - INFO - 🔢 Cochage de 'prix lot/série'
+2025-09-19 07:52:52,198 - INFO - 🔍 Recherche de la checkbox: prix lot/série
+2025-09-19 07:52:53,398 - WARNING - ❌ Checkbox 'prix lot/série' non trouvée
+2025-09-19 07:52:54,398 - INFO - 📦 Cochage de 'capture des stocks'
+2025-09-19 07:52:54,398 - INFO - 🔍 Recherche de la checkbox: capture des stocks
+2025-09-19 07:52:54,454 - INFO - ✅ Checkbox 'capture des stocks' cochée via clic sur label
+2025-09-19 07:52:55,499 - INFO - Champ de date trouvé: input[name*='date']
+2025-09-19 07:52:56,089 - INFO - Date définie (FR): 19/09/2025
+2025-09-19 07:52:57,193 - INFO - Capture d'écran sauvegardée: logs\before_save_button_search_20250919_075257.png
+2025-09-19 07:52:57,193 - INFO - Recherche du bouton 'Ajouter' vert...
+2025-09-19 07:52:57,203 - INFO - Sélecteur 1: //button[contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), 'ajouter')] - 4 bouton(s) trouvé(s)
+2025-09-19 07:52:57,228 - INFO -   Bouton 1: 'Ajouter' - class='btn btn-success btn-user' - type='submit'
+2025-09-19 07:52:57,228 - INFO - ✅ Bouton 'Ajouter' sélectionné: 'Ajouter'
+2025-09-19 07:52:58,244 - INFO - 🖱️ Clic sur le bouton: 'Ajouter'
+2025-09-19 07:52:58,331 - INFO - ✅ Sauvegarde confirmée
+2025-09-19 07:52:58,331 - INFO - Nouvel inventaire créé avec succès
+2025-09-19 07:52:58,331 - INFO - Nouvel inventaire créé avec succès
+2025-09-19 07:53:03,331 - INFO - Actualisation de la page des inventaires
+2025-09-19 07:53:03,788 - INFO - Capture d'écran sauvegardée: logs\page_refreshed_20250919_075303.png
+2025-09-19 07:53:03,788 - INFO - Page actualisée avec succès
+2025-09-19 07:53:06,789 - INFO - Recherche des inventaires existants
+2025-09-19 07:53:06,821 - INFO - Inventaire trouvé: 16/09/2025
+2025-09-19 07:53:06,848 - INFO - Inventaire trouvé: 19/09/2025
+2025-09-19 07:53:07,019 - INFO - Total inventaires trouvés: 2
+2025-09-19 07:53:07,020 - INFO - Inventaire trouvé après actualisation 1
+2025-09-19 07:53:07,020 - INFO - Inventaire créé avec succès
+2025-09-19 07:53:07,020 - INFO - Navigation vers la page Inventaires
+2025-09-19 07:53:07,467 - INFO - Capture d'écran sauvegardée: logs\inventaires_page_20250919_075307.png
+2025-09-19 07:53:07,467 - INFO - Page Inventaires chargée avec succès
+2025-09-19 07:53:09,468 - INFO - Recherche des inventaires existants
+2025-09-19 07:53:09,503 - INFO - Inventaire trouvé: 16/09/2025
+2025-09-19 07:53:09,530 - INFO - Inventaire trouvé: 19/09/2025
+2025-09-19 07:53:09,706 - INFO - Total inventaires trouvés: 2
+2025-09-19 07:53:09,706 - INFO - ✅ Inventaire confirmé visible dans la liste: 19/09/2025
+2025-09-19 07:53:09,706 - INFO - Actualisation de la page des inventaires
+2025-09-19 07:53:10,094 - INFO - Capture d'écran sauvegardée: logs\page_refreshed_20250919_075309.png
+2025-09-19 07:53:10,094 - INFO - Page actualisée avec succès
+2025-09-19 07:53:10,094 - INFO - === SUCCÈS: 1 inventaire créé avec la date 19/09/2025 ===
+2025-09-19 07:53:12,233 - INFO - Driver fermé proprement
+2025-09-19 07:54:02,459 - INFO - Initialisation terminée - Date cible: 19/09/2025
+2025-09-19 07:54:02,459 - INFO - === DÉBUT DE LA MISE À JOUR DES DATES D'INVENTAIRES ===
+2025-09-19 07:54:02,459 - INFO - Toutes les variables d'environnement obligatoires sont présentes
+2025-09-19 07:54:02,460 - INFO - Mode headless activé
+2025-09-19 07:54:03,711 - INFO - Driver Chrome initialisé avec succès
+2025-09-19 07:54:03,711 - INFO - Étape: Connexion
+2025-09-19 07:54:03,711 - INFO - Début de la connexion à Satelix
+2025-09-19 07:54:04,587 - INFO - Bouton de connexion trouvé avec: css selector = input[type='submit']
+2025-09-19 07:54:04,830 - INFO - Capture d'écran sauvegardée: logs\before_login_20250919_075404.png
+2025-09-19 07:54:05,705 - INFO - Capture d'écran sauvegardée: logs\after_login_20250919_075405.png
+2025-09-19 07:54:05,705 - INFO - Connexion réussie
+2025-09-19 07:54:05,705 - INFO - Étape: Navigation vers Inventaires
+2025-09-19 07:54:05,705 - INFO - Navigation vers la page Inventaires
+2025-09-19 07:54:06,071 - INFO - Capture d'écran sauvegardée: logs\inventaires_page_20250919_075405.png
+2025-09-19 07:54:06,071 - INFO - Page Inventaires chargée avec succès
+2025-09-19 07:54:06,071 - INFO - Recherche des inventaires existants
+2025-09-19 07:54:06,112 - INFO - Inventaire trouvé: 16/09/2025
+2025-09-19 07:54:06,272 - INFO - Total inventaires trouvés: 1
+2025-09-19 07:54:06,272 - INFO - Utilisation de l'inventaire '16/09/2025' comme template
+2025-09-19 07:54:06,272 - INFO - Création d'un nouvel inventaire avec la date 19/09/2025
+2025-09-19 07:54:06,272 - INFO - Création d'un nouvel inventaire avec la date 19/09/2025
+2025-09-19 07:54:06,301 - INFO - Bouton de création trouvé: button[title*='Nouvel']
+2025-09-19 07:54:07,348 - INFO - Bouton de création cliqué
+2025-09-19 07:54:07,357 - INFO - Formulaire de création ouvert
+2025-09-19 07:54:10,450 - INFO - Capture d'écran sauvegardée: logs\top_of_form_20250919_075410.png
+2025-09-19 07:54:10,450 - INFO - Copie des paramètres depuis l'inventaire template
+2025-09-19 07:54:10,450 - INFO - 📝 Définition de l'intitulé: Inventaire filtres
+2025-09-19 07:54:10,450 - INFO - Recherche du champ intitule...
+2025-09-19 07:54:10,548 - INFO - Capture d'écran sauvegardée: logs\searching_intitule_20250919_075410.png
+2025-09-19 07:54:10,580 - INFO - Champ trouvé: name='intitule', id='', placeholder=''
+2025-09-19 07:54:11,640 - INFO - SUCCÈS! Champ intitule rempli avec: 'Inventaire filtres'
+2025-09-19 07:54:12,641 - INFO - 🏢 Sélection du dépôt: DEPOT
+2025-09-19 07:54:12,693 - WARNING - ❌ Dropdown depot ou option DEPOT non trouvé(e)
+2025-09-19 07:54:13,694 - INFO - 💰 Sélection du type de valorisation: CMUP
+2025-09-19 07:54:13,767 - WARNING - ❌ Dropdown valorisation ou option CMUP non trouvé(e)
+2025-09-19 07:54:14,768 - INFO - 🔢 Cochage de 'prix lot/série'
+2025-09-19 07:54:14,768 - INFO - 🔍 Recherche de la checkbox: prix lot/série
+2025-09-19 07:54:16,009 - WARNING - ❌ Checkbox 'prix lot/série' non trouvée
+2025-09-19 07:54:17,010 - INFO - 📦 Cochage de 'capture des stocks'
+2025-09-19 07:54:17,010 - INFO - 🔍 Recherche de la checkbox: capture des stocks
+2025-09-19 07:54:17,064 - INFO - ✅ Checkbox 'capture des stocks' cochée via clic sur label
+2025-09-19 07:54:18,102 - INFO - Champ de date trouvé: input[name*='date']
+2025-09-19 07:54:18,686 - INFO - Date définie (FR): 19/09/2025
+2025-09-19 07:54:19,780 - INFO - Capture d'écran sauvegardée: logs\before_save_button_search_20250919_075419.png
+2025-09-19 07:54:19,780 - INFO - Recherche du bouton 'Ajouter' vert...
+2025-09-19 07:54:19,791 - INFO - Sélecteur 1: //button[contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), 'ajouter')] - 4 bouton(s) trouvé(s)
+2025-09-19 07:54:19,813 - INFO -   Bouton 1: 'Ajouter' - class='btn btn-success btn-user' - type='submit'
+2025-09-19 07:54:19,813 - INFO - ✅ Bouton 'Ajouter' sélectionné: 'Ajouter'
+2025-09-19 07:54:20,830 - INFO - 🖱️ Clic sur le bouton: 'Ajouter'
+2025-09-19 07:54:20,915 - INFO - ✅ Sauvegarde confirmée
+2025-09-19 07:54:20,915 - INFO - Nouvel inventaire créé avec succès
+2025-09-19 07:54:20,915 - INFO - Nouvel inventaire créé avec succès
+2025-09-19 07:54:25,915 - INFO - Actualisation de la page des inventaires
+2025-09-19 07:54:26,294 - INFO - Capture d'écran sauvegardée: logs\page_refreshed_20250919_075426.png
+2025-09-19 07:54:26,294 - INFO - Page actualisée avec succès
+2025-09-19 07:54:29,295 - INFO - Recherche des inventaires existants
+2025-09-19 07:54:29,331 - INFO - Inventaire trouvé: 16/09/2025
+2025-09-19 07:54:29,354 - INFO - Inventaire trouvé: 19/09/2025
+2025-09-19 07:54:29,507 - INFO - Total inventaires trouvés: 2
+2025-09-19 07:54:29,507 - INFO - Inventaire trouvé après actualisation 1
+2025-09-19 07:54:29,507 - INFO - Inventaire créé avec succès
+2025-09-19 07:54:29,507 - INFO - Navigation vers la page Inventaires
+2025-09-19 07:54:29,825 - INFO - Capture d'écran sauvegardée: logs\inventaires_page_20250919_075429.png
+2025-09-19 07:54:29,825 - INFO - Page Inventaires chargée avec succès
+2025-09-19 07:54:31,825 - INFO - Recherche des inventaires existants
+2025-09-19 07:54:31,855 - INFO - Inventaire trouvé: 16/09/2025
+2025-09-19 07:54:31,878 - INFO - Inventaire trouvé: 19/09/2025
+2025-09-19 07:54:32,033 - INFO - Total inventaires trouvés: 2
+2025-09-19 07:54:32,033 - INFO - ✅ Inventaire confirmé visible dans la liste: 19/09/2025
+2025-09-19 07:54:32,033 - INFO - Actualisation de la page des inventaires
+2025-09-19 07:54:32,455 - INFO - Capture d'écran sauvegardée: logs\page_refreshed_20250919_075432.png
+2025-09-19 07:54:32,455 - INFO - Page actualisée avec succès
+2025-09-19 07:54:32,456 - INFO - === SUCCÈS: 1 inventaire créé avec la date 19/09/2025 ===
+2025-09-19 07:54:34,581 - INFO - Driver fermé proprement
+2025-09-19 07:55:55,440 - INFO - Initialisation terminée - Date cible: 19/09/2025
+2025-09-19 07:55:55,440 - INFO - === DÉBUT DE LA MISE À JOUR DES DATES D'INVENTAIRES ===
+2025-09-19 07:55:55,441 - INFO - Toutes les variables d'environnement obligatoires sont présentes
+2025-09-19 07:55:55,441 - INFO - Mode headless activé
+2025-09-19 07:55:56,664 - INFO - Driver Chrome initialisé avec succès
+2025-09-19 07:55:56,664 - INFO - Étape: Connexion
+2025-09-19 07:55:56,664 - INFO - Début de la connexion à Satelix
+2025-09-19 07:55:57,497 - INFO - Bouton de connexion trouvé avec: css selector = input[type='submit']
+2025-09-19 07:55:57,740 - INFO - Capture d'écran sauvegardée: logs\before_login_20250919_075557.png
+2025-09-19 07:55:59,598 - INFO - Capture d'écran sauvegardée: logs\after_login_20250919_075559.png
+2025-09-19 07:55:59,598 - INFO - Connexion réussie
+2025-09-19 07:55:59,598 - INFO - Étape: Navigation vers Inventaires
+2025-09-19 07:55:59,598 - INFO - Navigation vers la page Inventaires
+2025-09-19 07:56:00,053 - INFO - Capture d'écran sauvegardée: logs\inventaires_page_20250919_075559.png
+2025-09-19 07:56:00,054 - INFO - Page Inventaires chargée avec succès
+2025-09-19 07:56:00,054 - INFO - Recherche des inventaires existants
+2025-09-19 07:56:00,099 - INFO - Inventaire trouvé: 16/09/2025
+2025-09-19 07:56:00,273 - INFO - Total inventaires trouvés: 1
+2025-09-19 07:56:00,274 - INFO - Utilisation de l'inventaire '16/09/2025' comme template
+2025-09-19 07:56:00,274 - INFO - Création d'un nouvel inventaire avec la date 19/09/2025
+2025-09-19 07:56:00,274 - INFO - Création d'un nouvel inventaire avec la date 19/09/2025
+2025-09-19 07:56:00,307 - INFO - Bouton de création trouvé: button[title*='Nouvel']
+2025-09-19 07:56:01,355 - INFO - Bouton de création cliqué
+2025-09-19 07:56:01,363 - INFO - Formulaire de création ouvert
+2025-09-19 07:56:04,465 - INFO - Capture d'écran sauvegardée: logs\top_of_form_20250919_075604.png
+2025-09-19 07:56:04,465 - INFO - Copie des paramètres depuis l'inventaire template
+2025-09-19 07:56:04,465 - INFO - 📝 Définition de l'intitulé: Inventaire filtres
+2025-09-19 07:56:04,466 - INFO - Recherche du champ intitule...
+2025-09-19 07:56:04,557 - INFO - Capture d'écran sauvegardée: logs\searching_intitule_20250919_075604.png
+2025-09-19 07:56:04,591 - INFO - Champ trouvé: name='intitule', id='', placeholder=''
+2025-09-19 07:56:05,650 - INFO - SUCCÈS! Champ intitule rempli avec: 'Inventaire filtres'
+2025-09-19 07:56:06,651 - INFO - 🏢 Sélection du dépôt: DEPOT
+2025-09-19 07:56:06,707 - WARNING - ❌ Dropdown depot ou option DEPOT non trouvé(e)
+2025-09-19 07:56:07,707 - INFO - 💰 Sélection du type de valorisation: CMUP
+2025-09-19 07:56:07,773 - WARNING - ❌ Dropdown valorisation ou option CMUP non trouvé(e)
+2025-09-19 07:56:08,774 - INFO - 🔢 Cochage de 'prix lot/série'
+2025-09-19 07:56:08,774 - INFO - 🔍 Recherche de la checkbox: prix lot/série
+2025-09-19 07:56:10,010 - WARNING - ❌ Checkbox 'prix lot/série' non trouvée
+2025-09-19 07:56:11,011 - INFO - 📦 Cochage de 'capture des stocks'
+2025-09-19 07:56:11,011 - INFO - 🔍 Recherche de la checkbox: capture des stocks
+2025-09-19 07:56:11,065 - INFO - ✅ Checkbox 'capture des stocks' cochée via clic sur label
+2025-09-19 07:56:12,102 - INFO - Champ de date trouvé: input[name*='date']
+2025-09-19 07:56:12,687 - INFO - Date définie (FR): 19/09/2025
+2025-09-19 07:56:13,774 - INFO - Capture d'écran sauvegardée: logs\before_save_button_search_20250919_075613.png
+2025-09-19 07:56:13,774 - INFO - Recherche du bouton 'Ajouter' vert...
+2025-09-19 07:56:13,784 - INFO - Sélecteur 1: //button[contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), 'ajouter')] - 4 bouton(s) trouvé(s)
+2025-09-19 07:56:13,808 - INFO -   Bouton 1: 'Ajouter' - class='btn btn-success btn-user' - type='submit'
+2025-09-19 07:56:13,808 - INFO - ✅ Bouton 'Ajouter' sélectionné: 'Ajouter'
+2025-09-19 07:56:14,825 - INFO - 🖱️ Clic sur le bouton: 'Ajouter'
+2025-09-19 07:56:14,908 - INFO - ✅ Sauvegarde confirmée
+2025-09-19 07:56:14,908 - INFO - Nouvel inventaire créé avec succès
+2025-09-19 07:56:14,908 - INFO - Nouvel inventaire créé avec succès
+2025-09-19 07:56:19,909 - INFO - Actualisation de la page des inventaires
+2025-09-19 07:56:20,322 - INFO - Capture d'écran sauvegardée: logs\page_refreshed_20250919_075620.png
+2025-09-19 07:56:20,323 - INFO - Page actualisée avec succès
+2025-09-19 07:56:23,323 - INFO - Recherche des inventaires existants
+2025-09-19 07:56:23,355 - INFO - Inventaire trouvé: 16/09/2025
+2025-09-19 07:56:23,380 - INFO - Inventaire trouvé: 19/09/2025
+2025-09-19 07:56:23,540 - INFO - Total inventaires trouvés: 2
+2025-09-19 07:56:23,541 - INFO - Inventaire trouvé après actualisation 1
+2025-09-19 07:56:23,541 - INFO - Inventaire créé avec succès
+2025-09-19 07:56:23,541 - INFO - Navigation vers la page Inventaires
+2025-09-19 07:56:23,924 - INFO - Capture d'écran sauvegardée: logs\inventaires_page_20250919_075623.png
+2025-09-19 07:56:23,924 - INFO - Page Inventaires chargée avec succès
+2025-09-19 07:56:25,924 - INFO - Recherche des inventaires existants
+2025-09-19 07:56:25,958 - INFO - Inventaire trouvé: 16/09/2025
+2025-09-19 07:56:25,985 - INFO - Inventaire trouvé: 19/09/2025
+2025-09-19 07:56:26,165 - INFO - Total inventaires trouvés: 2
+2025-09-19 07:56:26,165 - INFO - ✅ Inventaire confirmé visible dans la liste: 19/09/2025
+2025-09-19 07:56:26,165 - INFO - Actualisation de la page des inventaires
+2025-09-19 07:56:26,586 - INFO - Capture d'écran sauvegardée: logs\page_refreshed_20250919_075626.png
+2025-09-19 07:56:26,586 - INFO - Page actualisée avec succès
+2025-09-19 07:56:26,586 - INFO - === SUCCÈS: 1 inventaire créé avec la date 19/09/2025 ===
+2025-09-19 07:56:28,878 - INFO - Driver fermé proprement
